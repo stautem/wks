@@ -17,8 +17,8 @@ Colors:
     height: 500px;
 }
 
-.logo:hover {
-    transform: rotate(7deg);
-    -ms-transform:rotate(7deg); /* IE 9 */
-    -webkit-transform:rotate(7deg); /* Opera, Chrome, and Safari */
+.wheel:hover {
+    transform: rotate(50deg);
+    -ms-transform:rotate(50deg); /* IE 9 */
+    -webkit-transform:rotate(50deg); /* Opera, Chrome, and Safari */
 }
