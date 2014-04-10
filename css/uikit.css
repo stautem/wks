@@ -1372,9 +1372,9 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   text-decoration: none;
-  height: 41px;
+  height: 60px;
   padding: 0 15px;
-  line-height: 40px;
+  line-height: 60px;
   color: #444444;
   font-size: 16px;
   font-weight: normal;
