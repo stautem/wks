@@ -1,9 +1,9 @@
 /*
-Colors
-dblue = #0F76BC
-lblue = #2AABDC
-dyellow = #FCB040
-lyellow = #FAC440
+Colors:
+    dblue = #0F76BC
+    lblue = #2AABDC
+    dyellow = #FCB040
+    lyellow = #FAC440
 */
 
 .wks-navbar {
@@ -15,4 +15,10 @@ lyellow = #FAC440
 .wks-bg {
     background: #2AABDC;
     height: 500px;
+}
+
+.logo:hover {
+    transform: rotate(7deg);
+    -ms-transform:rotate(7deg); /* IE 9 */
+    -webkit-transform:rotate(7deg); /* Opera, Chrome, and Safari */
 }
