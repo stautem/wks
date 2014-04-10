@@ -1469,6 +1469,7 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 }
 .uk-navbar-flip {
   float: right;
+  padding: 0 15px;
 }
 .uk-navbar-nav:first-child > li:first-child > a {
   border-top-left-radius: 5px;
