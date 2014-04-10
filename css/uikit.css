@@ -1375,14 +1375,8 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
   height: 60px;
   padding: 0 15px;
   line-height: 60px;
-  color: #444444;
+  color: #FFFFFF;
   font-size: 16px;
-  font-weight: normal;
-  margin-top: -1px;
-  margin-left: -1px;
-  border: 1px solid transparent;
-  border-bottom-width: 0;
-  text-shadow: 0 1px 0 #ffffff;
 }
 .uk-navbar-nav > li > a[href='#'] {
   cursor: text;
@@ -1430,8 +1424,6 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
   height: 60px;
   padding: 0 15px;
   float: left;
-  margin-top: -1px;
-  text-shadow: 0 1px 0 #ffffff;
 }
 .uk-navbar-content:before,
 .uk-navbar-brand:before,
@@ -1462,7 +1454,7 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 }
 .uk-navbar-toggle {
   font-size: 20px;
-  color: #444444;
+  color: #888888;
 }
 .uk-navbar-toggle:hover,
 .uk-navbar-toggle:focus {

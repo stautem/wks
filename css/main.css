@@ -1,3 +1,11 @@
+/*
+Colors
+dblue = #0F76BC
+lblue = #2AABDC
+dyellow = #FCB040
+lyellow = #FAC440
+*/
+
 .wks-navbar {
     padding: 15px 0;
     height:60px;
@@ -5,7 +13,6 @@
     background: #191919;
 }
 .wks-bg {
-    background: #0F76BC;
+    background: #2AABDC;
     height: 400px;
 }
-body {font-family: font-family: 'Open Sans', sans-serif;}
