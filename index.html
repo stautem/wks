@@ -14,10 +14,15 @@
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/addons/uikit.addons.min.css">
         <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        
+        <!--*****Theme*****-->
+        <link rel="stylesheet" href="css/owl.theme.css">
         
         <!--*****Scripts*****-->
         <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
         <script src="js/uikit.min.js"></script>
+        <script src="js/owl.carousel.js"></script>
         
     </head>
     <body>
@@ -54,7 +59,114 @@
         </nav>
         
         <div class="wks-bg">
-
+            <div class="uk-container uk-container-center uk-margin-large">
+                <div id="owl-single" class="owl-carousel owl-theme">
+                    <div> 
+                        <div class="uk-grid uk-hidden-small">
+                            <div class="uk-width-medium-1-2">
+                                <img src="http://placehold.it/300x300" alt="" class="right uk-animation-slide-top">
+                            </div>
+                            <div class="uk-width-medium-1-2">
+                                <br>
+                                <br>
+                                <p class="uk-animation-slide-right">This is 2</p>
+                                <p class="uk-animation-slide-right">This is a test 2</p>
+                                <p class="uk-animation-slide-right">This is a test of owl 2</p>
+                                <button class="uk-button uk-button-warning uk-animation-fade" type="button">Donate!</button>
+                            </div>
+                        </div>
+                        <div class="uk-grid uk-visible-small center">
+                            <div class="uk-width-medium-1-2">
+                                <img src="http://placehold.it/300x300" alt="" class="uk-animation-slide-top">
+                            </div>
+                            <div class="uk-width-medium-1-2">
+                                <p class="uk-animation-slide-right">This is 2</p>
+                                <p class="uk-animation-slide-right">This is a test 2</p>
+                                <p class="uk-animation-slide-right">This is a test of owl 2</p>
+                                <button class="uk-button uk-button-warning uk-animation-fade" type="button">Donate!</button>
+                            </div>
+                        </div> 
+                    </div>
+                    <div> 
+                        <div class="uk-grid uk-hidden-small">
+                            <div class="uk-width-medium-1-2">
+                                <img src="http://placehold.it/300x300" alt="" class="right uk-animation-slide-top">
+                            </div>
+                            <div class="uk-width-medium-1-2">
+                                <br>
+                                <br>
+                                <p>This is 3</p>
+                                <p>This is a test 3</p>
+                                <p>This is a test of owl 3</p>
+                                <button class="uk-button uk-button-warning" type="button">Donate!</button>
+                            </div>
+                        </div>
+                        <div class="uk-grid uk-visible-small center">
+                            <div class="uk-width-medium-1-2">
+                                <img src="http://placehold.it/300x300" alt="">
+                            </div>
+                            <div class="uk-width-medium-1-2">
+                                <p>This is 3</p>
+                                <p>This is a test 3</p>
+                                <p>This is a test of owl 3</p>
+                                <button class="uk-button uk-button-warning" type="button">Donate!</button>
+                            </div>
+                        </div>  
+                    </div>
+                    <div> 
+                        <div class="uk-grid uk-hidden-small">
+                            <div class="uk-width-medium-1-2">
+                                <img src="http://placehold.it/300x300" alt="" class="right">
+                            </div>
+                            <div class="uk-width-medium-1-2">
+                                <br>
+                                <br>
+                                <p>This is 4</p>
+                                <p>This is a test 4</p>
+                                <p>This is a test of owl 4</p>
+                                <button class="uk-button uk-button-warning" type="button">Donate!</button>
+                            </div>
+                        </div>
+                        <div class="uk-grid uk-visible-small center">
+                            <div class="uk-width-medium-1-2">
+                                <img src="http://placehold.it/300x300" alt="">
+                            </div>
+                            <div class="uk-width-medium-1-2">
+                                <p>This is 4</p>
+                                <p>This is a test 4</p>
+                                <p>This is a test of owl 4</p>
+                                <button class="uk-button uk-button-warning" type="button">Donate!</button>
+                            </div>
+                        </div>  
+                    </div>
+                    <div> 
+                        <div class="uk-grid uk-hidden-small">
+                            <div class="uk-width-medium-1-2">
+                                <img src="http://placehold.it/300x300" alt="" class="right">
+                            </div>
+                            <div class="uk-width-medium-1-2">
+                                <br>
+                                <br>
+                                <p>This is 5</p>
+                                <p>This is a test 5</p>
+                                <p>This is a test of owl 5</p>
+                                <button class="uk-button uk-button-warning" type="button">Donate!</button>
+                            </div>
+                        </div>
+                        <div class="uk-grid uk-visible-small center">
+                            <div class="uk-width-medium-1-2">
+                                <img src="http://placehold.it/300x300" alt="">
+                            </div>
+                            <div class="uk-width-medium-1-2">
+                                <p>This is 5</p>
+                                <p>This is a test 5</p>
+                                <p>This is a test of owl 5</p>
+                                <button class="uk-button uk-button-warning" type="button">Donate!</button>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
         </div>
         
         <div class="uk-container uk-container-center uk-margin-large">
@@ -91,5 +203,20 @@
             </div>
         </div>
         
+        <script>
+            $(document).ready(function() {
+ 
+              $("#owl-single").owlCarousel({
+
+                  slideSpeed : 500,
+                  paginationSpeed : 400,
+                  singleItem:true,
+                  autoPlay:true
+
+              });
+
+            });
+        </script>
+
     </body>
 </html>

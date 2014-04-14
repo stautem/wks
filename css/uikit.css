@@ -1444,11 +1444,11 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 }
 .uk-navbar-toggle {
   font-size: 20px;
-  color: #888888;
+  color: #ffffff;
 }
 .uk-navbar-toggle:hover,
 .uk-navbar-toggle:focus {
-  color: #444444;
+  color: #eeeeee;
   text-decoration: none;
   outline: none;
 }
@@ -2311,6 +2311,20 @@ select.uk-form-width-mini {
 .uk-button-danger:active,
 .uk-button-danger.uk-active {
   background-color: #c91032;
+  color: #ffffff;
+}
+.uk-button-warning {
+  background-color: #FAC440;
+  color: #ffffff;
+}
+.uk-button-warning:hover,
+.uk-button-warning:focus {
+  background-color: #FCB040;
+  color: #ffffff;
+}
+.uk-button-warning:active,
+.uk-button-warning.uk-active {
+  background-color: #FCB040;
   color: #ffffff;
 }
 .uk-button:disabled {

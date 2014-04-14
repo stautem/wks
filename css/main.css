@@ -13,8 +13,8 @@ Colors:
     background: #191919;
 }
 .wks-bg {
+    padding:50px 0;
     background: #2AABDC;
-    height: 500px;
 }
 
 .wheel {
@@ -32,4 +32,14 @@ Colors:
     -webkit-transform: rotate(360deg);
     -o-transform: rotate(360deg);
     transform: rotate(360deg);
+}
+.right {
+    float:right;
+}
+
+.center {
+    text-align: center;
+}
+.center img {
+    margin: 0 auto;
 }
