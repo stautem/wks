@@ -1,39 +1,35 @@
 <!DOCTYPE html>
 <html> 
     <head>
+    
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        
+        <meta name="description" content="The Western Kansas Skate Project (WeKanSkate) seeks to raise awareness for skateboarders and the need for an updated skatepark in Hays, Kansas.">
+        <meta name="google-site-verification" content="N7JmPRz-Wuq_lPOwTwfbZSRhWarhD1gCvLPHmUCjuw4" />
+
         <title>WeKanSkate | Western Kansas Skate Project</title>
-        
+
         <!--*****Icon*****-->
         <link rel="shortcut icon" href="favicon.ico">
-          
+
         <!--*****CSS*****-->
         <link rel="stylesheet" href="css/uikit.css">
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/addons/uikit.addons.min.css">
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="css/owl.carousel.css">
-        
-        <!--*****Theme*****-->
-        <link rel="stylesheet" href="css/owl.theme.css">
-        
-        <!--*****Scripts*****-->
-        <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-        <script src="js/uikit.min.js"></script>
-        <script src="js/owl.carousel.js"></script>
-        
+        <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Open+Sans'>
+        <link rel="stylesheet" href="css/owl.min.css">
+
     </head>
-    <body>
-        
-        <!--*****Navigation*****-->
+<body>
+
+    <!--*****Navigation*****-->
+    <div class="top-nav-fixed">
         <nav class="wks-navbar uk-navbar uk-navbar-attached">
+            <!--*****Large Nav - Hidden for small screens*****-->
             <!-- SVG with PNG fallback -->
             <a href="" class="uk-navbar-brand uk-hidden-small">
-                <svg width="66" height="60" class="wheel"> 
+                <svg width="60" height="60" class="wheel"> 
                     <image width="60" height="60" alt="WeKanSkate"
-                    xlink:href="img/wks-wheel.svg" src="img/wks-wheel.png"/>
+                    xlink:href="img/wks-wheel-small.svg" src="img/wks-wheel-small.png"/>
                 </svg>
                 <svg width="67" height="60"> 
                     <image width="67" height="60" alt="WeKanSkate"
@@ -45,178 +41,292 @@
                     <li><a href="">Menu 1</a></li>
                     <li><a href="">Menu 2</a></li>
                     <li><a href="">Menu 3</a></li>
+                    <li><a href="#contact" data-uk-smooth-scroll>Contact</a></li>
                 </ul>
             </div>
+            <!--*****Small Nav - Off screen nav for small screens*****-->
             <a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
             <div class="uk-navbar-brand uk-navbar-center">
                 <a href="" class="uk-visible-small">
-                    <svg width="66" height="60" class="wheel"> 
+                    <svg width="60" height="60" class="wheel"> 
                         <image width="60" height="60" alt="WeKanSkate"
-                        xlink:href="img/wks-wheel.svg" src="img/wks-wheel.png"/>
+                        xlink:href="img/wks-wheel-small.svg" src="img/wks-wheel-small.png"/>
                     </svg>
                 </a>
             </div>
         </nav>
-        
-        <div class="wks-bg">
-            <div class="uk-container uk-container-center uk-margin-large">
-                <div id="owl-single" class="owl-carousel owl-theme">
-                    <div> 
-                        <div class="uk-grid uk-hidden-small">
-                            <div class="uk-width-medium-1-2">
-                                <img src="http://placehold.it/300x300" alt="" class="right uk-animation-slide-top">
-                            </div>
-                            <div class="uk-width-medium-1-2">
-                                <br>
-                                <br>
-                                <p class="uk-animation-slide-right">This is 2</p>
-                                <p class="uk-animation-slide-right">This is a test 2</p>
-                                <p class="uk-animation-slide-right">This is a test of owl 2</p>
-                                <button class="uk-button uk-button-warning uk-animation-fade" type="button">Donate!</button>
-                            </div>
-                        </div>
-                        <div class="uk-grid uk-visible-small center">
-                            <div class="uk-width-medium-1-2">
-                                <img src="http://placehold.it/300x300" alt="" class="uk-animation-slide-top">
-                            </div>
-                            <div class="uk-width-medium-1-2">
-                                <p class="uk-animation-slide-right">This is 2</p>
-                                <p class="uk-animation-slide-right">This is a test 2</p>
-                                <p class="uk-animation-slide-right">This is a test of owl 2</p>
-                                <button class="uk-button uk-button-warning uk-animation-fade" type="button">Donate!</button>
-                            </div>
-                        </div> 
-                    </div>
-                    <div> 
-                        <div class="uk-grid uk-hidden-small">
-                            <div class="uk-width-medium-1-2">
-                                <img src="http://placehold.it/300x300" alt="" class="right uk-animation-slide-top">
-                            </div>
-                            <div class="uk-width-medium-1-2">
-                                <br>
-                                <br>
-                                <p>This is 3</p>
-                                <p>This is a test 3</p>
-                                <p>This is a test of owl 3</p>
-                                <button class="uk-button uk-button-warning" type="button">Donate!</button>
-                            </div>
-                        </div>
-                        <div class="uk-grid uk-visible-small center">
-                            <div class="uk-width-medium-1-2">
-                                <img src="http://placehold.it/300x300" alt="">
-                            </div>
-                            <div class="uk-width-medium-1-2">
-                                <p>This is 3</p>
-                                <p>This is a test 3</p>
-                                <p>This is a test of owl 3</p>
-                                <button class="uk-button uk-button-warning" type="button">Donate!</button>
-                            </div>
-                        </div>  
-                    </div>
-                    <div> 
-                        <div class="uk-grid uk-hidden-small">
-                            <div class="uk-width-medium-1-2">
-                                <img src="http://placehold.it/300x300" alt="" class="right">
-                            </div>
-                            <div class="uk-width-medium-1-2">
-                                <br>
-                                <br>
-                                <p>This is 4</p>
-                                <p>This is a test 4</p>
-                                <p>This is a test of owl 4</p>
-                                <button class="uk-button uk-button-warning" type="button">Donate!</button>
-                            </div>
-                        </div>
-                        <div class="uk-grid uk-visible-small center">
-                            <div class="uk-width-medium-1-2">
-                                <img src="http://placehold.it/300x300" alt="">
-                            </div>
-                            <div class="uk-width-medium-1-2">
-                                <p>This is 4</p>
-                                <p>This is a test 4</p>
-                                <p>This is a test of owl 4</p>
-                                <button class="uk-button uk-button-warning" type="button">Donate!</button>
-                            </div>
-                        </div>  
-                    </div>
-                    <div> 
-                        <div class="uk-grid uk-hidden-small">
-                            <div class="uk-width-medium-1-2">
-                                <img src="http://placehold.it/300x300" alt="" class="right">
-                            </div>
-                            <div class="uk-width-medium-1-2">
-                                <br>
-                                <br>
-                                <p>This is 5</p>
-                                <p>This is a test 5</p>
-                                <p>This is a test of owl 5</p>
-                                <button class="uk-button uk-button-warning" type="button">Donate!</button>
-                            </div>
-                        </div>
-                        <div class="uk-grid uk-visible-small center">
-                            <div class="uk-width-medium-1-2">
-                                <img src="http://placehold.it/300x300" alt="">
-                            </div>
-                            <div class="uk-width-medium-1-2">
-                                <p>This is 5</p>
-                                <p>This is a test 5</p>
-                                <p>This is a test of owl 5</p>
-                                <button class="uk-button uk-button-warning" type="button">Donate!</button>
-                            </div>
-                        </div> 
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="uk-container uk-container-center uk-margin-large">
-            <div class="uk-grid">
-                <div class="uk-width-medium-1-3">
-                    <h2>Title</h2>
-                    <p>Bacon ipsum dolor sit amet velit ham adipisicing chicken t-bone, kevin pig cillum aute esse turducken filet mignon. Anim laboris filet mignon sed ball tip prosciutto spare ribs in enim dolor. Ullamco tenderloin fatback aute beef ribs. Jerky officia deserunt tenderloin rump, andouille t-bone corned beef. Ground round ex beef salami velit exercitation. Jowl mollit ex eu frankfurter voluptate. Aute qui dolore kielbasa reprehenderit shankle.</p>
-                </div>
-                <div class="uk-width-medium-1-3">
-                    <h2>Title</h2>
-                    <p>Cow pork belly spare ribs sausage beef ribs. Sirloin ribeye salami, kielbasa laborum esse officia boudin short loin ullamco pork belly nulla. Occaecat ea jowl capicola, irure mollit et dolore commodo. Reprehenderit adipisicing eiusmod consequat. Nostrud mollit pork chop shoulder ex beef voluptate irure sunt short ribs beef ribs qui. Fugiat capicola est dolore pork chop, adipisicing shoulder dolor laborum aliqua esse.</p>
-                </div>
-                <div class="uk-width-medium-1-3">
-                    <h2>Title</h2>
-                    <p>Chicken adipisicing nulla magna beef andouille non. Cillum cow tenderloin prosciutto t-bone irure ad pig voluptate id tempor. Occaecat dolor tri-tip exercitation, meatball fugiat deserunt non. Ea frankfurter ullamco pastrami, chuck salami veniam shankle excepteur nisi jowl pork chop boudin cow.</p>
-                </div>
-            </div>
-        </div>
-                
-        <!--*****Off Canvas Navigation*****-->
-        <div id="offcanvas" class="uk-offcanvas">
-            <div class="uk-offcanvas-bar">
-                <ul class="uk-nav uk-nav-offcanvas">
-                    <li class="uk-active">
-                        <a href="">Menu 1</a>
-                    </li>
-                    <li>
-                        <a href="">Menu 2</a>
-                    </li>
-                    <li>
-                        <a href="">Menu 3</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        
-        <script>
-            $(document).ready(function() {
- 
-              $("#owl-single").owlCarousel({
+    </div>
 
-                  slideSpeed : 500,
-                  paginationSpeed : 400,
-                  singleItem:true,
-                  autoPlay:true
+    <!--*****Slider*****-->
+    <div class="wks-slider-bg">
+        <div class="uk-container uk-container-center test">
+            <div id="owl-single" class="owl-carousel owl-theme">
+                <div> 
+                    <div class="uk-grid uk-hidden-small">
+                        <div class="uk-width-medium-1-2">
+                            <img src="http://placehold.it/300x300" alt="" class="right">
+                        </div>
+                        <div class="uk-width-medium-1-2">
+                            <br>
+                            <br>
+                            <p>This is 2</p>
+                            <p>This is a test 2</p>
+                            <p>This is a test of owl 2</p>
+                            <button class="uk-button uk-button-warning" type="button">Donate!</button>
+                        </div>
+                    </div>
+                    <div class="uk-grid uk-visible-small center">
+                        <div class="uk-width-medium-1-2">
+                            <img src="http://placehold.it/300x300" alt="">
+                        </div>
+                        <div class="uk-width-medium-1-2">
+                            <br>
+                            <p>This is 2</p>
+                            <p>This is a test 2</p>
+                            <p>This is a test of owl 2</p>
+                            <button class="uk-button uk-button-warning" type="button">Donate!</button>
+                        </div>
+                    </div> 
+                </div>
+                <div> 
+                    <div class="uk-grid uk-hidden-small">
+                        <div class="uk-width-medium-1-2">
+                            <img src="http://placehold.it/300x300" alt="" class="right">
+                        </div>
+                        <div class="uk-width-medium-1-2">
+                            <br>
+                            <br>
+                            <p>This is 3</p>
+                            <p>This is a test 3</p>
+                            <p>This is a test of owl 3</p>
+                            <button class="uk-button uk-button-warning" type="button">Donate!</button>
+                        </div>
+                    </div>
+                    <div class="uk-grid uk-visible-small center">
+                        <div class="uk-width-medium-1-2">
+                            <img src="http://placehold.it/300x300" alt="">
+                        </div>
+                        <div class="uk-width-medium-1-2">
+                            <br>
+                            <p>This is 3</p>
+                            <p>This is a test 3</p>
+                            <p>This is a test of owl 3</p>
+                            <button class="uk-button uk-button-warning" type="button">Donate!</button>
+                        </div>
+                    </div>  
+                </div>
+                <div> 
+                    <div class="uk-grid uk-hidden-small">
+                        <div class="uk-width-medium-1-2">
+                            <img src="http://placehold.it/300x300" alt="" class="right">
+                        </div>
+                        <div class="uk-width-medium-1-2">
+                            <br>
+                            <br>
+                            <p>This is 4</p>
+                            <p>This is a test 4</p>
+                            <p>This is a test of owl 4</p>
+                            <button class="uk-button uk-button-warning" type="button">Donate!</button>
+                        </div>
+                    </div>
+                    <div class="uk-grid uk-visible-small center">
+                        <div class="uk-width-medium-1-2">
+                            <img src="http://placehold.it/300x300" alt="">
+                        </div>
+                        <div class="uk-width-medium-1-2">
+                            <br>
+                            <p>This is 4</p>
+                            <p>This is a test 4</p>
+                            <p>This is a test of owl 4</p>
+                            <button class="uk-button uk-button-warning" type="button">Donate!</button>
+                        </div>
+                    </div>  
+                </div>
+                <div> 
+                    <div class="uk-grid uk-hidden-small">
+                        <div class="uk-width-medium-1-2">
+                            <img src="http://placehold.it/300x300" alt="" class="right">
+                        </div>
+                        <div class="uk-width-medium-1-2">
+                            <br>
+                            <br>
+                            <p>This is 5</p>
+                            <p>This is a test 5</p>
+                            <p>This is a test of owl 5</p>
+                            <button class="uk-button uk-button-warning" type="button">Donate!</button>
+                        </div>
+                    </div>
+                    <div class="uk-grid uk-visible-small center">
+                        <div class="uk-width-medium-1-2">
+                            <img src="http://placehold.it/300x300" alt="">
+                        </div>
+                        <div class="uk-width-medium-1-2">
+                            <br>
+                            <p>This is 5</p>
+                            <p>This is a test 5</p>
+                            <p>This is a test of owl 5</p>
+                            <button class="uk-button uk-button-warning" type="button">Donate!</button>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
 
-              });
+    <!--*****Overview Content*****-->
+    <div class="uk-container uk-container-center uk-margin-large">
+        <div class="uk-grid" data-uk-grid-margin>
+            <div class="uk-width-medium-1-3">
+                <h2>Title</h2>
+                <p>Bacon ipsum dolor sit amet velit ham adipisicing chicken t-bone, kevin pig cillum aute esse turducken filet mignon. Anim laboris filet mignon sed ball tip prosciutto spare ribs in enim dolor. Ullamco tenderloin fatback aute beef ribs. Jerky officia deserunt tenderloin rump, andouille t-bone corned beef. Ground round ex beef salami velit exercitation. Jowl mollit ex eu frankfurter voluptate. Aute qui dolore kielbasa reprehenderit shankle.</p>
+            </div>
+            <div class="uk-width-medium-1-3">
+                <h2>Title</h2>
+                <p>Cow pork belly spare ribs sausage beef ribs. Sirloin ribeye salami, kielbasa laborum esse officia boudin short loin ullamco pork belly nulla. Occaecat ea jowl capicola, irure mollit et dolore commodo. Reprehenderit adipisicing eiusmod consequat. Nostrud mollit pork chop shoulder ex beef voluptate irure sunt short ribs beef ribs qui. Fugiat capicola est dolore pork chop, adipisicing shoulder dolor laborum aliqua esse.</p>
+            </div>
+            <div class="uk-width-medium-1-3">
+                <h2>Title</h2>
+                <p>Chicken adipisicing nulla magna beef andouille non. Cillum cow tenderloin prosciutto t-bone irure ad pig voluptate id tempor. Occaecat dolor tri-tip exercitation, meatball fugiat deserunt non. Ea frankfurter ullamco pastrami, chuck salami veniam shankle excepteur nisi jowl pork chop boudin cow.</p>
+            </div>
+        </div>
+    </div>
+
+    <!--*****Contact*****-->
+    <div id="contact"></div>
+    <br>
+    <br>
+    <br>
+    <div class="wks-contact-bg">
+        <div class="uk-container uk-container-center">        
+            <div class="uk-grid" data-uk-margin>
+                <div class="uk-width-medium-1-4 uk-text-center">
+                    <div class="uk-thumbnail uk-overlay-toggle uk-border-circle" data-uk-scrollspy="{cls:'uk-animation-slide-top', repeat: true}">
+                        <div class="uk-overlay">
+                            <img class="uk-border-circle" width="200" height="200" src="http://placehold.it/200x200" alt="">
+                            <div class="uk-overlay-area uk-border-circle">
+                                <div class="uk-overlay-area-content">
+                                    <a href="#" class="uk-icon-button uk-icon-envelope"></a>
+                                    <a href="#" class="uk-icon-button uk-icon-twitter"></a>
+                                    <a href="#" class="uk-icon-button uk-icon-google-plus"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h2 class="uk-margin-bottom-remove" data-uk-scrollspy="{cls:'uk-animation-slide-bottom', repeat: true}">Spencer Autem</h2>
+                    <p class="uk-margin-top-remove" data-uk-scrollspy="{cls:'uk-animation-slide-bottom', repeat: true}">Web Developer</p>
+                </div>
+                <div class="uk-width-medium-1-4 uk-text-center">
+                    <div class="uk-thumbnail uk-overlay-toggle uk-border-circle" data-uk-scrollspy="{cls:'uk-animation-slide-top', repeat: true, delay: 200}">
+                        <div class="uk-overlay">
+                            <img class="uk-border-circle" width="200" height="200" src="http://placehold.it/200x200" alt="">
+                            <div class="uk-overlay-area uk-border-circle">
+                                <div class="uk-overlay-area-content">
+                                    <a href="#" class="uk-icon-button uk-icon-envelope"></a>
+                                    <a href="#" class="uk-icon-button uk-icon-twitter"></a>
+                                    <a href="#" class="uk-icon-button uk-icon-google-plus"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h2 class="uk-margin-bottom-remove" data-uk-scrollspy="{cls:'uk-animation-slide-bottom', repeat: true, delay: 200}">Mohammed Nasser</h2>
+                    <p class="uk-margin-top-remove" data-uk-scrollspy="{cls:'uk-animation-slide-bottom', repeat: true, delay: 200}">Job Description</p>
+                </div>
+                <div class="uk-width-medium-1-4 uk-text-center">
+                    <div class="uk-thumbnail uk-overlay-toggle uk-border-circle" data-uk-scrollspy="{cls:'uk-animation-slide-top', repeat: true, delay: 400}">
+                        <div class="uk-overlay">
+                            <img class="uk-border-circle" width="200" height="200" src="http://placehold.it/200x200" alt="">
+                            <div class="uk-overlay-area uk-border-circle">
+                                <div class="uk-overlay-area-content">
+                                    <a href="#" class="uk-icon-button uk-icon-envelope"></a>
+                                    <a href="#" class="uk-icon-button uk-icon-twitter"></a>
+                                    <a href="#" class="uk-icon-button uk-icon-google-plus"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h2 class="uk-margin-bottom-remove" data-uk-scrollspy="{cls:'uk-animation-slide-bottom', repeat: true, delay: 400}">Steavon Rochelle</h2>
+                    <p class="uk-margin-top-remove" data-uk-scrollspy="{cls:'uk-animation-slide-bottom', repeat: true, delay: 400}">Job Description</p>
+                </div>
+                <div class="uk-width-medium-1-4 uk-text-center">
+                    <div class="uk-thumbnail uk-overlay-toggle uk-border-circle" data-uk-scrollspy="{cls:'uk-animation-slide-top', repeat: true, delay: 600}">
+                        <div class="uk-overlay">
+                            <img class="uk-border-circle" width="200" height="200" src="http://placehold.it/200x200" alt="">
+                            <div class="uk-overlay-area uk-border-circle">
+                                <div class="uk-overlay-area-content">
+                                    <a href="#" class="uk-icon-button uk-icon-envelope"></a>
+                                    <a href="#" class="uk-icon-button uk-icon-twitter"></a>
+                                    <a href="#" class="uk-icon-button uk-icon-google-plus"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h2 class="uk-margin-bottom-remove" data-uk-scrollspy="{cls:'uk-animation-slide-bottom', repeat: true, delay: 600}">Devin Seats</h2>
+                    <p class="uk-margin-top-remove" data-uk-scrollspy="{cls:'uk-animation-slide-bottom', repeat: true, delay: 600}">Job Description</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--*****Footer*****-->
+    <div class="wks-footer"></div>
+
+    <!--*****Off Canvas Navigation*****-->
+    <div id="offcanvas" class="uk-offcanvas">
+        <div class="uk-offcanvas-bar">
+            <ul class="uk-nav uk-nav-offcanvas">
+                <li><a href="">Menu 1</a></li>
+                <li><a href="">Menu 2</a></li>
+                <li><a href="">Menu 3</a></li>
+                <li><a href="#contact" data-uk-smooth-scroll>Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!--*****Scripts*****-->
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="js/uikit.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/addons/sticky.min.js"></script>
+
+    <!--*****Owl Slider Script*****-->
+    <script>
+        $(document).ready(function() {
+
+            $("#owl-single").owlCarousel({
+
+            slideSpeed : 500,
+            paginationSpeed : 400,
+            singleItem:true,
+            autoPlay:true
 
             });
-        </script>
 
-    </body>
+        });
+    </script>
+    
+    <!--*****Google Analytics*****-->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-50311930-1', 'wekanskate.com');
+        ga('send', 'pageview');
+    </script>
+
+    <!--*****Better Browser - Tells users to update their browser if needed. (http://www.browser-update.org/)*****-->
+    <script type="text/javascript"> 
+        var $buoop = {}; 
+        $buoop.ol = window.onload; 
+        window.onload=function(){ 
+        try {if ($buoop.ol) $buoop.ol();}catch (e) {} 
+        var e = document.createElement("script"); 
+        e.setAttribute("type", "text/javascript"); 
+        e.setAttribute("src", "//browser-update.org/update.js"); 
+        document.body.appendChild(e); 
+        } 
+    </script>
+
+</body>
 </html>
