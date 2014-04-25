@@ -28,13 +28,17 @@ Colors:
     -webkit-transition: -webkit-transform 1s,background 1s,width 1s,height 1s;
     -o-transition-property: width,height,-o-transform,background;
     -o-transition-duration: 1s,1s,1s,1s,1s,1s;
+    -moz-transition: -moz-transform 1s,background 1s,width 1s,height 1s;
     -moz-transition-property: width,height,-o-transform,background;
     -moz-transition-duration: 1s,1s,1s,1s,1s,1s;
+    -ms-transition-property: width,height,-o-transform,background;
+    -ms-transition-duration: 1s,1s,1s,1s,1s,1s;
     transition-property: width,height,transform,background
     transition-duration: 1s,1s,1s,1s,1s,1s;
 }
 
 .wheel:hover {
+    -ms-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
     -o-transform: rotate(360deg);
