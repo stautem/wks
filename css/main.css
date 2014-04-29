@@ -52,10 +52,11 @@ Colors:
 .center img {
     margin: 0 auto;
 }
-.wks-footer {
-    height:800px;
+.wks-footer-bg {
+    background:#444444;
 }
 .top-nav-fixed{z-index: 100;position: fixed;width: 100%;}
 
 .test{margin-top:90px;}
 .wks-learn-bg{background:#FCB040;}
+.white-text * {color:#ffffff;}
