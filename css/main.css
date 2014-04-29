@@ -14,9 +14,11 @@ Colors:
 }
 .wks-slider-bg {
     background: #2AABDC;
+    background-image: url(../img/wks-lb-bg.png);
 }
 .wks-contact-bg {
-    background-image: url(../img/stardust.png);
+    background: #0f76bc;
+    background-image: url(../img/wks-db-bg.png);
 }
 .wks-contact-bg h2, .wks-contact-bg p {
     color: #ffffff;
@@ -58,5 +60,5 @@ Colors:
 .top-nav-fixed{z-index: 100;position: fixed;width: 100%;}
 
 .test{margin-top:90px;}
-.wks-learn-bg{background:#FCB040;}
+.wks-learn-bg{background:#FCB040;background-image: url(../img/wks-dy-bg.png);}
 .white-text * {color:#ffffff;}
