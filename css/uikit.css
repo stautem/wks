@@ -4815,6 +4815,9 @@ a.uk-thumbnail:focus {
   max-height: 100%;
   width: auto;
 }
+.uk-padding-large {
+    padding:100px 0;
+}
 .uk-margin {
   margin-bottom: 15px;
 }

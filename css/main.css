@@ -13,12 +13,10 @@ Colors:
     background: #444444;
 }
 .wks-slider-bg {
-    padding: 100px 0;
     background: #2AABDC;
 }
 .wks-contact-bg {
     background-image: url(../img/stardust.png);
-    padding: 100px 0;
 }
 .wks-contact-bg h2, .wks-contact-bg p {
     color: #ffffff;
@@ -60,3 +58,4 @@ Colors:
 .top-nav-fixed{z-index: 100;position: fixed;width: 100%;}
 
 .test{margin-top:90px;}
+.wks-learn-bg{background:#FCB040;}
