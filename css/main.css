@@ -16,6 +16,10 @@ Colors:
     background: #2AABDC;
     background-image: url(../img/wks-lb-bg.png);
 }
+.wks-future-bg {
+    background: #2AABDC;
+    background-image: url(../img/wks-lb-bg.png);
+}
 .wks-contact-bg {
     background: #0f76bc;
     background-image: url(../img/wks-db-bg.png);
@@ -95,7 +99,7 @@ Colors:
 .top-nav-fixed{z-index: 100;position: fixed;width: 100%;}
 
 .test{margin-top:90px;}
-.wks-learn-bg{background:#FCB040;background-image: url(../img/wks-dy-bg.png);}
+.wks-current-bg{background:#0F76BC;background-image: url(../img/wks-db-bg.png);}
 .white-text * {color:#ffffff;}
 
 
@@ -161,6 +165,10 @@ Colors:
     transition: all 0.1s ease-out;
     -webkit-transition: all 0.1s ease-out;
 }
-.owl-carousel img {
+.round-img {
     border-radius:100%;
+}
+.owl-carousel iframe {
+    text-align: center;
+    margin: 0 auto;
 }

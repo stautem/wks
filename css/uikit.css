@@ -266,7 +266,14 @@ figure {
 * + figure {
   margin-top: 15px;
 }
-h1,
+h1 { 
+    margin: 0 0 50px 0;
+    font-weight: normal;
+    color: #444444;
+    text-transform: none;
+    letter-spacing: -2px;
+}
+
 h2,
 h3,
 h4,
@@ -276,6 +283,7 @@ h6 {
   font-weight: normal;
   color: #444444;
   text-transform: none;
+    letter-spacing: -2px;
 }
 * + h1,
 * + h2,
@@ -4828,7 +4836,7 @@ a.uk-thumbnail:focus {
   margin-top: 15px !important;
 }
 .uk-margin-bottom {
-  margin-bottom: 15px !important;
+  margin-bottom: 25px !important;
 }
 .uk-margin-left {
   margin-left: 15px !important;
