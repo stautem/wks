@@ -73,9 +73,6 @@ Colors:
     float:right;
 }
 
-.center {
-    text-align: center;
-}
 .center img {
     margin: 0 auto;
 }
@@ -101,7 +98,9 @@ Colors:
 .test{margin-top:90px;}
 .wks-current-bg{background:#0F76BC;background-image: url(../img/wks-db-bg.png);}
 .white-text * {color:#ffffff;}
-
+.width-reset * {
+    width:100%!important;
+}
 
 .wks-panel-link,
 .wks-panel-link:hover {
