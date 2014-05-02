@@ -27,7 +27,7 @@ Colors:
 .wks-contact-bg h1, .wks-contact-bg h2, .wks-contact-bg p {
     color: #ffffff;
 }
-
+.wks-addthis { width:184px; margin: 0 auto; }
 .wheel {
     -webkit-transition: -webkit-transform 1s,background 1s,width 1s,height 1s;
     -o-transition-property: width,height,-o-transform,background;
