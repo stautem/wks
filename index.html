@@ -146,8 +146,21 @@
                     </div>
                 </div>
                 <div class="uk-width-medium-1-2" data-uk-scrollspy="{cls:'uk-animation-slide-right', repeat: true, delay: 2000}">
-                    <img src="http://placehold.it/800x800" alt="" class="round-img">
-                </div>
+                    <div id="owl-about" class="owl-carousel owl-theme">
+                        <div> 
+                            <img src="http://placehold.it/600x600" alt="" class="round-img">
+                        </div>
+                        <div> 
+                           <img src="http://placehold.it/600x600" alt="" class="round-img">
+                        </div>
+                        <div> 
+                           <img src="http://placehold.it/600x600" alt="" class="round-img">
+                        </div>
+                        <div> 
+                           <img src="http://placehold.it/600x600" alt="" class="round-img">
+                        </div>
+                    </div>
+                </div>  
             </div>
         </div>
 
@@ -161,7 +174,20 @@
         <div class="uk-container uk-container-center uk-margin-large">
             <div class="uk-grid" data-uk-grid-margin>
                 <div class="uk-width-medium-1-2" data-uk-scrollspy="{cls:'uk-animation-slide-left', repeat: true, delay: 1500}">
-                    <img src="http://placehold.it/800x800" alt="" class="round-img">
+                    <div id="owl-current" class="owl-carousel owl-theme">
+                        <div> 
+                            <img src="http://placehold.it/600x600" alt="" class="round-img">
+                        </div>
+                        <div> 
+                           <img src="http://placehold.it/600x600" alt="" class="round-img">
+                        </div>
+                        <div> 
+                           <img src="http://placehold.it/600x600" alt="" class="round-img">
+                        </div>
+                        <div> 
+                           <img src="http://placehold.it/600x600" alt="" class="round-img">
+                        </div>
+                    </div>
                 </div>
                 <div class="uk-width-medium-1-2">
                     <h1>The <strong>Current</strong> Skatepark.</h1>
@@ -188,8 +214,21 @@
                     </div>
                 </div>
                 <div class="uk-width-medium-1-2" data-uk-scrollspy="{cls:'uk-animation-slide-right', repeat: true, delay: 1500}">
-                    <img src="http://placehold.it/800x800" alt="" class="round-img">
-                </div>
+                    <div id="owl-future" class="owl-carousel owl-theme">
+                        <div> 
+                            <img src="http://placehold.it/600x600" alt="" class="round-img">
+                        </div>
+                        <div> 
+                           <img src="http://placehold.it/600x600" alt="" class="round-img">
+                        </div>
+                        <div> 
+                           <img src="http://placehold.it/600x600" alt="" class="round-img">
+                        </div>
+                        <div> 
+                           <img src="http://placehold.it/600x600" alt="" class="round-img">
+                        </div>
+                    </div>
+                </div>  
             </div>
         </div>
         
@@ -369,9 +408,63 @@
 
                 slideSpeed : 500,
                 paginationSpeed : 400,
-                singleItem:true,
-                autoPlay: 8000,
-                stopOnHover: true
+                singleItem : true,
+                autoPlay : 8000,
+                stopOnHover : true
+
+                });
+
+            });
+        </script>
+        
+        <!--*****About section Owl Slider Script*****-->
+        <script>
+            $(document).ready(function() {
+
+                $("#owl-about").owlCarousel({
+
+                slideSpeed : 500,
+                navigation : true,
+                pagination : false,
+                singleItem : true,
+                autoPlay : 4000,
+                stopOnHover : true
+
+                });
+
+            });
+        </script>
+        
+        <!--*****Current section Owl Slider Script*****-->
+        <script>
+            $(document).ready(function() {
+
+                $("#owl-current").owlCarousel({
+
+                slideSpeed : 500,
+                navigation : true,
+                pagination : false,
+                singleItem : true,
+                autoPlay : 4000,
+                stopOnHover : true
+
+                });
+
+            });
+        </script>
+        
+        <!--*****Future section Owl Slider Script*****-->
+        <script>
+            $(document).ready(function() {
+
+                $("#owl-future").owlCarousel({
+
+                slideSpeed : 500,
+                navigation : true,
+                pagination : false,
+                singleItem : true,
+                autoPlay : 4000,
+                stopOnHover : true
 
                 });
 
