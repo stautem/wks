@@ -5,7 +5,6 @@ Colors:
     dyellow = #FCB040
     lyellow = #FAC440
 */
-
 .wks-navbar {
     padding: 15px 0;
     height: 60px;
@@ -16,68 +15,25 @@ Colors:
     background: #2AABDC;
     background-image: url(../img/wks-lb-bg.png);
 }
-.wks-future-bg {
-    background: #2AABDC;
-    background-image: url(../img/wks-lb-bg.png);
+.wks-addthis { 
+    width:184px; margin: 0 auto; 
 }
-.wks-contact-bg {
+.downloads {
     background: #0f76bc;
     background-image: url(../img/wks-db-bg.png);
 }
-.wks-contact-bg h1, .wks-contact-bg h2, .wks-contact-bg p {
+.downloads a:hover {
+    color:#dddddd;
+}
+button a:hover {
     color: #ffffff;
-}
-.wks-addthis { width:184px; margin: 0 auto; }
-.wheel {
-    -webkit-transition: -webkit-transform 1s,background 1s,width 1s,height 1s;
-    -o-transition-property: width,height,-o-transform,background;
-    -o-transition-duration: 1s,1s,1s,1s,1s,1s;
-    -moz-transition: -moz-transform 1s,background 1s,width 1s,height 1s;
-    -moz-transition-property: width,height,-o-transform,background;
-    -moz-transition-duration: 1s,1s,1s,1s,1s,1s;
-    -ms-transition-property: width,height,-o-transform,background;
-    -ms-transition-duration: 1s,1s,1s,1s,1s,1s;
-    transition-property: width,height,transform,background
-    transition-duration: 1s,1s,1s,1s,1s,1s;
-}
-
-.wheel:hover {
-    -ms-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -webkit-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    transform: rotate(360deg);
-}
-.ns-wheel {
-    margin-bottom: -11px;
-    -webkit-transition: -webkit-transform 100s,background 100s,width 100s,height 100s;
-    -o-transition-property: width,height,-o-transform,background;
-    -o-transition-duration: 100s,100s,100s,100s,100s,100s;
-    -moz-transition: -moz-transform 100s,background 100s,width 100s,height 100s;
-    -moz-transition-property: width,height,-o-transform,background;
-    -moz-transition-duration: 100s,100s,100s,100s,100s,100s;
-    -ms-transition-property: width,height,-o-transform,background;
-    -ms-transition-duration: 100s,100s,100s,100s,100s,100s;
-    transition-property: width,height,transform,background
-    transition-duration: 100s,100s,100s,100s,100s,100s;
-}
-
-.ns-wheel:hover {
-    -ms-transform: rotate(360000deg);
-    -moz-transform: rotate(360000deg);
-    -webkit-transform: rotate(360000deg);
-    -o-transform: rotate(360000deg);
-    transform: rotate(360000deg);
+    text-decoration: none;
 }
 .right {
     float:right;
 }
-
-.center img {
-    margin: 0 auto;
-}
 .wks-footer-bg {
-    background:#222222;
+    background:#444444;
 }
 .wks-footer-bg p a {
     color: #dddddd;
@@ -93,27 +49,25 @@ Colors:
 .wks-footer-bg p {
     color:#dddddd;
 }
-.top-nav-fixed{z-index: 100;position: fixed;width: 100%;}
-
-.test{margin-top:90px;}
-.wks-current-bg{background:#0F76BC;background-image: url(../img/wks-db-bg.png);}
-.white-text * {color:#ffffff;}
-.width-reset * {
-    width:100%!important;
+.top-nav-fixed {
+    z-index: 100;
+    position: fixed;
+    width: 100%;
 }
-
+.white-text * {
+    color:#ffffff;
+}
+/*Get involved panel section*/
 .wks-panel-link,
 .wks-panel-link:hover {
     text-decoration: none;
     color: #444;
 }
-
 .wks-panel-link {
     padding: 30px 30px 60px 30px;
     border: 1px solid #e5e5e5;
     border-radius: 5px;
 }
-
 .wks-panel-link:after {
     content: "";
     display: none;
@@ -124,13 +78,9 @@ Colors:
     bottom: -1px;
     background: #2AABDC;
 }
-
 .wks-panel-link:hover:after { display: block; }
-
 .wks-panel-link:hover h2 { color: #2AABDC; }
-
 .wks-grid-margin-large .uk-grid-margin { margin-top: 50px; }
-
 .wks-icon {
     position: relative;
     width: 80px;
@@ -140,7 +90,6 @@ Colors:
     line-height: 80px;
     color: #fff;
 }
-
 .wks-icon:after {
     content: "";
     display: block;
@@ -155,9 +104,7 @@ Colors:
     border-left-color: transparent;
     border-bottom: none;
 }
-
 .wks-panel-link { -webkit-backface-visibility: hidden; }
-
 .wks-panel-link:hover .wks-icon {
     transform: translateY(5px);
     -webkit-transform: translateY(5px);
@@ -166,8 +113,4 @@ Colors:
 }
 .round-img {
     border-radius:100%;
-}
-.owl-carousel iframe {
-    text-align: center;
-    margin: 0 auto;
 }

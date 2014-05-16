@@ -5,6 +5,7 @@ html {
 }
 body {
   margin: 0;
+  overflow-x: hidden
 }
 article,
 aside,
@@ -2470,6 +2471,10 @@ select.uk-form-width-mini {
 .uk-icon-large:before {
   font-size: 250%;
   vertical-align: -22%;
+}
+.logo-spin:hover {
+  -webkit-animation: uk-spin 1s;
+  animation: uk-spin 1s;
 }
 .uk-icon-spin {
   display: inline-block;
